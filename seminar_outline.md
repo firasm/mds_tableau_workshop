@@ -4,7 +4,7 @@
 1. **Slides -> Gallery of Tableau Dashboard** (3 mins) 
 1. **Slides -> Pros and Cons** (5 mins) 
     - Pros: 
-        - Super easy to use
+      - Super easy to use
       - Drag and drop style
       - Lot you can do easily
       - Things that would take a while on Altair and ggplot can be done easily
@@ -15,7 +15,7 @@
       - Multiple data sources
         
     - Cons
-        - Easy stuff in visualization world take longer to do in Tableau (Violin plots)
+      - Easy stuff in visualization world take longer to do in Tableau (Violin plots)
       - "Crap for big data"
       - Problematic for "specific things"
       - There are some "calculations"
@@ -27,15 +27,15 @@
 1. **Introduce Dummy Dash** (6-8 mins) 
     - What is capable in 1 month time 
     - Features 
-    - captions 
-    - filtering
+    - Captions 
+    - Filtering
     - Dashboard vs sheet(?) 
     - Pop ups, hovers ,extensions, palettes
     - URLs, images 
 
 1. **Slides -> Vocabulary** (5 mins) 
-    - dimension, measure, parameter, (continuous vs discrete),  calculation, etc.
-    - worksheets vs dashboards
+    - Dimension, measure, parameter, (continuous vs discrete),  calculation, etc.
+    - Worksheets vs dashboards
     - Tableau recognizes locations, time, boolean, strings etc (different than dimensions)
 
 1. **Workshop building quick plots** (15 mins)
