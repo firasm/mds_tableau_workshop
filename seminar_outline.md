@@ -1,7 +1,7 @@
 ## Seminar Outline
 
 1. **Slides -> Introduce Tableau: What it is? Who uses it? Why?** (2 mins)
-1. **Slides -> Gallery of Tableau Dashboard** (3 mins) 
+1. **Slides -> Gallery of Tableau Dashboard** (2 mins) 
 1. **Slides -> Pros and Cons** (5 mins) 
     - Pros: 
       - Super easy to use
@@ -24,7 +24,7 @@
       - NOT reproducible
       - (lack of) Version Control (image of folders) 
 
-1. **Introduce Dummy Dash** (6-8 mins) 
+1. **Introduce Dummy Dash** (6 mins) 
     - What is capable in 1 month time 
     - Features 
     - Captions 
@@ -33,10 +33,11 @@
     - Pop ups, hovers ,extensions, palettes
     - URLs, images 
 
-1. **Slides -> Vocabulary** (5 mins) 
+1. **Slides -> Vocabulary** (6 mins) 
     - Dimension, measure, parameter, (continuous vs discrete),  calculation, etc.
     - Worksheets vs dashboards
     - Tableau recognizes locations, time, boolean, strings etc (different than dimensions)
+    - Table JOINS!!! relationship vs join (I still don't understand the difference here) 
 
 1. **Workshop building quick plots** (15 mins)
     (need to explore this more) 
@@ -53,7 +54,7 @@
 
 1. **Slides ->Deployment/ Ressources** (3-4 mins) 
 
-(Current time with min times 45 mins) 
+(Current time ~ 45 mins) 
 
 **Please rearrange or edit timing where you see fit!**
  
