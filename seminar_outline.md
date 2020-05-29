@@ -49,7 +49,7 @@
 
     - Move some stuff Part 1 demo here
 
-1. **Workshop - Starting from scratch** (15 mins) (maybe more if possible) 
+1. **Workshop - Building a dashboard from scratch** (30 mins)
     (need to explore this more) 
     - Bring in data (joins and combined data) 
     - Use Vancouver trees dataset 
@@ -57,9 +57,13 @@
     - Map, layers 
     - Filtering 
     - Difficulties of easy things (discrete values top header vs continuous values = bottom header, horizontal radio buttons)
-    - Aggregates, different symbols (can add your own!) 
+    - Aggregates, different symbols (can add your own!)
 
-(Current time ~ 45 mins) 
+1. **Questions - at the end and throughout** (10 mins)
+
+(Current time ~ 50 mins) 
+
+1. Troubleshooting and/or general dashboard consulation session (60 mins)
 
 ### Optional Slides/content
 
