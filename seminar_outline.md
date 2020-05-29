@@ -4,6 +4,15 @@
 
 ## Seminar Outline
 
+1. **Demo: Dummy Dash** (10 mins) 
+    - What is possible in 1 month time 
+    - Features 
+    - Captions 
+    - Filtering
+    - Dashboard vs worksheets
+    - Pop ups, hovers, extensions, palettes
+    - URLs, images 
+    
 1. **Slides -> Introduction to Tableau** [5 mins]
     - What it is? Who uses it? Why?** (2 mins)
     - Pros and Cons** (3 mins) 
@@ -28,15 +37,6 @@
           - NOT reproducible
           - (lack of) Version Control (image of folders) 
           - Crashes... a lot. 
-
-1. **Demo - Part 1: Dummy Dash** (10 mins) 
-    - What is possible in 1 month time 
-    - Features 
-    - Captions 
-    - Filtering
-    - Dashboard vs worksheets
-    - Pop ups, hovers, extensions, palettes
-    - URLs, images 
 
 1. **Slides -> Vocabulary** (5 mins) 
     - Dimension, measure, parameter, (continuous vs discrete),  calculation, etc.
