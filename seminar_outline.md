@@ -46,7 +46,7 @@
     (need to explore this more) 
     - Bring in data (joins and combined data) 
     - Use Vancouver trees dataset 
-    - Make bar chart, bubble chart, time series!
+    - Make bar chart, bubble chart, time series (forcasting option- do not love, but it's there)!
     - Map, layers 
     - Filtering 
     - Difficulties of easy things (discrete values top header vs continuous values = bottom header, horizontal radio buttons)
