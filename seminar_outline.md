@@ -17,12 +17,13 @@
     - Cons
       - Easy stuff in visualization world take longer to do in Tableau (Violin plots)
       - "Crap for big data"
-      - Problematic for "specific things"
+      - Problematic for "specific things" -> Tableau has rules they expect you to follow and getting around them is hacky. 
       - There are some "calculations"
       - Steep learning curves (couple hours)
       - Expensive, academic license is restrictive
       - NOT reproducible
       - (lack of) Version Control (image of folders) 
+      - Crashes... a lot. 
 
 1. **Introduce Dummy Dash** (6 mins) 
     - What is capable in 1 month time 
@@ -38,13 +39,17 @@
     - Worksheets vs dashboards
     - Tableau recognizes locations, time, boolean, strings etc (different than dimensions)
     - Table JOINS!!! relationship vs join (I still don't understand the difference here) 
+    - `.Twb` vs `.Twbx`
+    - 
 
-1. **Workshop building quick plots** (15 mins)
+1. **Workshop building quick plots** (15 mins) (maybe more if possible) 
     (need to explore this more) 
     - Bring in data (joins and combined data) 
     - Use Vancouver trees dataset 
-    - Make bar chart, bubble chart 
+    - Make bar chart, bubble chart, time series!
     - Map, layers 
+    - Filtering 
+    - Difficulties of easy things (discrete values top header vs continuous values = bottom header, horizontal radio buttons)
     - Aggregates, different symbols (can add your own!) 
 
 1. **Slides -> Python/Jupyter with Tableau** (6-8 mins)
