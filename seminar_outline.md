@@ -1,6 +1,9 @@
 ## Seminar Outline
 
 1. **Slides -> Introduce Tableau: What it is? Who uses it? Why?** (2 mins)
+    - How Hayley learned Tableau: 
+         - Videos were not helpful for me. Very Slock Tried sitting through their intro course and immediately lost interest. 
+         - I needed a task, a specific goal and then off I went. I recommend the same.
 1. **Slides -> Gallery of Tableau Dashboard** (2 mins) 
 1. **Slides -> Pros and Cons** (5 mins) 
     - Pros: 
