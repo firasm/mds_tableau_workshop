@@ -33,7 +33,7 @@
     - Features 
     - Captions 
     - Filtering
-    - Dashboard vs sheet(?) 
+    - Dashboard vs worksheets
     - Pop ups, hovers ,extensions, palettes
     - URLs, images 
 
@@ -43,7 +43,6 @@
     - Tableau recognizes locations, time, boolean, strings etc (different than dimensions)
     - Table JOINS!!! relationship vs join (I still don't understand the difference here) 
     - `.Twb` vs `.Twbx`
-    - 
 
 1. **Workshop building quick plots** (15 mins) (maybe more if possible) 
     (need to explore this more) 
