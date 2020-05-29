@@ -4,7 +4,7 @@
 
 ## Seminar Outline
 
-1. **Slides -> Introduction to Tableau [5 mins]
+1. **Slides -> Introduction to Tableau** [5 mins]
     - What it is? Who uses it? Why?** (2 mins)
     - Pros and Cons** (3 mins) 
         - Pros: 
@@ -34,7 +34,7 @@
     - Features 
     - Captions 
     - Filtering
-    - Dashboard vs sheet(?) 
+    - Dashboard vs worksheets
     - Pop ups, hovers, extensions, palettes
     - URLs, images 
 
