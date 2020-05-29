@@ -4,7 +4,7 @@
 
 ## Seminar Outline
 
-1. **Demo: Dummy Dash** (10 mins) 
+1. **Demo: Dummy Dash** (5 mins) [Firas]
     - What is possible in 1 month time 
     - Features 
     - Captions 
@@ -13,7 +13,7 @@
     - Pop ups, hovers, extensions, palettes
     - URLs, images 
     
-1. **Slides -> Introduction to Tableau** [5 mins]
+1. **Slides -> Introduction to Tableau** [5 mins] [Hayley]
     - What it is? Who uses it? Why?** (2 mins)
     - Pros and Cons** (3 mins) 
         - Pros: 
@@ -38,14 +38,14 @@
           - (lack of) Version Control (image of folders) 
           - Crashes... a lot. 
 
-1. **Slides -> Vocabulary** (5 mins) 
+1. **Slides -> Vocabulary** (5 mins) [Firas]
     - Dimension, measure, parameter, (continuous vs discrete),  calculation, etc.
     - Worksheets vs dashboards
     - Tableau recognizes locations, time, boolean, strings etc (different than dimensions)
     - Table JOINS!!! relationship vs join (I still don't understand the difference here) 
     - `.Twb` vs `.Twbx`
 
-1. **Workshop - Building a dashboard from scratch** (30 mins)
+1. **Workshop - Building a dashboard from scratch** (30 mins) [Firas & Hayley]
     (need to explore this more) 
     - Bring in data (joins and combined data) 
     - Use Vancouver trees dataset 
