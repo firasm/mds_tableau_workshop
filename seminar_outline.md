@@ -54,8 +54,11 @@
     - Filtering 
     - Difficulties of easy things (discrete values top header vs continuous values = bottom header, horizontal radio buttons)
     - Aggregates, different symbols (can add your own!)
+    
+1. **Translink Team Cameo** (5 mins)
+    - Integrating R and Python into Tableau
 
-1. **Questions - at the end and throughout** (10 mins)
+1. **Questions - at the end and throughout** (5 mins)
 
 (Current time ~ 50 mins) 
 
