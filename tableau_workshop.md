@@ -117,7 +117,7 @@ Remember how difficult it can be to make maps using leaflet, python and R. Well 
 
 ### Making a Dashboard 
 1. Create a new dashboard by clicking "**Dashboard**" in the top menu bar and selecting "**New Dashboard**"
-2. Before you do absolutely anything, under the "**Size**" heading, click the triangle beside "Desktop Browser (1000x800). Change "**Fixed Size**" to "**Automatic**". This will now make sure your dashboard adjusts to all monitor sizes. 
+2. Before you do absolutely anything, under the "**Size**" heading, click the triangle beside "Desktop Browser (1000x800)". Change "**Fixed Size**" to "**Automatic**". This will now make sure your dashboard adjusts to all monitor sizes. 
 3. Let drag our sheets in using Tiled objects. Under "**Sheets**" on the left-hand side, drag and drop the sheets you want to include in you dash. 
 
 
@@ -146,12 +146,16 @@ If  you want to use a highlight something on a plot and have it act as a filter 
 - Simply find the funnel icon on the side. When you hover over it, it should say "**Use Sheet as Filter**". 
 - Done! 
 
-
 ## Making Dashboard Tabs 
 
 FILL IN HERE 
 
 ## Where to Deploy 
 
-FILL IN HERE 
+- Tableau Online 
+- Tableau Public 
+- Tableau Server
+
+ All options available in the menu bar under "**Server**"
+
 
