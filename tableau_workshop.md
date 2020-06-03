@@ -99,7 +99,7 @@ Make a new worksheet by going to the menu bar under "**Worksheet**" and clicking
 
 ## Maps 
 
-Remember how difficult it can be to make maps using leaflet, python and R. Well get ready where Tableau Shines. 
+Remember how time consuming it can be to make maps using leaflet, python and R? Well, get ready to see where Tableau Shines. 
 
 ### Step by Step Instructions 
 1. Drag `Longitude` to the "**Columns**" toolbar.
