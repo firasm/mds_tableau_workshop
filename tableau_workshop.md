@@ -51,7 +51,7 @@ We are now interested in the number of trees planted and the date they were plan
 1. Combining scatterplot onto our line graph by adding an identical `tree_id` to rows and converting it to a counting measurement again. At first, we should get 2 graphs on top of each other. We can right-click one of them and select "**Dual Axis**".
 This will superimpose one on another with a left and a right axis title. We can hide the one on the right by right-clicking the axis and unticking the "**Show Header**" option. 
 1. To change the colour of the line and the points, we need to make sure we change the colour of both measures by selecting the "**All**" tab under the "**Marks**" card on the right.      
-1. Don't forget to give it a title and edit the y-axis label as we did earlier. 
+1. Don't forget to give it a title and edit the y-axis label as we did earlier.      
 _💡Tableau also has a forecasting option. We can obtain it by right-clicking the plot and selecting "**Forcast**" then "**Show Forcast**". You can customize this by right-clicking again and Selecting "**Forcast Options ..**". I am going to stop here because this is NOT recommended. It's here but we can do better than this._
 
 Make a new worksheet by going to the menu bar under "**Worksheet**" and clicking "**New Worksheet**" (Or command T on a Macbook).  
