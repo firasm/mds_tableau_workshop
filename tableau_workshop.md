@@ -86,5 +86,5 @@ Remember how difficult it can be to make maps using leaflet, python and R. Well 
 
 
 
-## Where to Diploy 
+## Where to Deploy 
 
