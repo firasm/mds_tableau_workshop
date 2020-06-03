@@ -37,6 +37,13 @@ We are going to make a bar chart for the number of trees in each genus.
 
 Make a new worksheet by going to the menu bar under "**Worksheet**" and clicking "**New Worksheet**" (Or command T on a Macbook).   
 
+## Aggregation plots 
+
+This is very similar to how you would make a bar plot with one minor different.
+
+FILL IN HERE 
+
+
 ## Making a Time Series 
 
 We are now interested in the number of trees planted and the date they were planted so our two columns of interest are `date_plated` and `tree_id`.
@@ -76,15 +83,36 @@ Remember how difficult it can be to make maps using leaflet, python and R. Well 
 
 ## Putting it all Together 
 
-- Making the dashboard 
-- Filters 
-- 1 filter for multiple graphs
-- Using a graph as a filter
+### Making a Dashboard 
+1. Create a new dashboard by clicking "**Dashboard**" in the top menu bar and selecting "**New Dashboard**"
+2. Before you do absolutely anything, under the "**Size**" heading, click the triangle beside "Desktop Browser (1000x800). Change "**Fixed Size**" to "**Automatic**". This will now make sure your dashboard adjusts to all monitor sizes. 
+3. Let drag our sheets in using Tiled objects. Under "**Sheets**" on the left-hand side, drag and drop the sheets you want to include in you dash. 
 
+
+### Filters 
+1. Decide what you want to filter on for each plot. 
+2. Go to the sheet my navigating on the bottom and selected the worksheet of interest.
+3. Under "**Tables**" Drag the column you wish to filter, in our case `Diameter`, `root_barrier` and `neighbourhood_name`  to the "**Filters**" card above "**Marks**". 
+    - For `diameter`, since it is a continuous variable we want to select "**All Values**". We can decide on what kind of filtering we want but we are sticking to a "**range**". 
+    - For `root_barrier` we want to select all values and then "**OK**".
+    - The same applies for `neighbourhood_name`.
+4. Repeat this step for each of your worksheets. (OR wait and follows the nexr step) 
+
+ADD HOW TO ADD FILTERS 
+ 
+#### One filter for multiple graphs
+
+FILL IN HERE 
+
+#### Using a graph as a filter
+
+FILL IN HERE 
 
 ## Making Dashboard Tabs 
 
-
+FILL IN HERE 
 
 ## Where to Deploy 
+
+FILL IN HERE 
 
