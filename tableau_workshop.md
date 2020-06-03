@@ -22,12 +22,12 @@ with minimal data wrangling done by the R package [DatateachR](https://github.co
 
 ## Making a Bar Chart
 
-We are going to make a bar chart for the number of trees in each genus. 
+We are going to make a bar chart for the number of trees in each neighbourhood. 
 
 ### Step by Step Instructions 
-1. Since we are interested in the tree genus, we are going to drag from the left-hand side under the heading "**Tables**" the column named `genus_name` to the "**Column**" toolbar. 
-1. Since we are interested in the count of the trees in each genus, I like to use the index to count the rows but you can use multiple different columns here. Drag the `tree_id` to the "**Rows**" toolbar.
-1. We are counting the number of trees in each genus, so we need to convert this variable to a "**measure**" specifically a "**count**". We can do this by right-clicking on it. 
+1. Since we are interested in the neighbourhood, we are going to drag from the left-hand side under the heading "**Tables**" the column named `neighbourhood_name` to the "**Column**" toolbar. 
+1. We are interested in the count of the trees in each neighbourhood, so I like to use the index to count the rows but you can use multiple different columns here. Drag the `tree_id` to the "**Rows**" toolbar.
+1. We need to convert this variable to a "**Measure**" specifically a "**Count**". We can do this by right-clicking on it. 
 1. Voila! A bar chart! 
 1. Let's change the colour. Go to the mark card and select a new colour. 
 1. Let' edit our y-axis label. Right-click on the axis and click "**Edit Axis...**" Under "**Axis**", you can edit your axis "**Title**".
@@ -39,9 +39,19 @@ Make a new worksheet by going to the menu bar under "**Worksheet**" and clicking
 
 ## Aggregation plots 
 
-This is very similar to how you would make a bar plot with one minor different.
+This is very similar to how you would make a bar plot with one minor different we no longer are using a "**Count**" "**Measure**" but instead perhaps "**Average**", "**Median**", "**Max**" or "**Min**". 
 
-FILL IN HERE 
+We are going to make a plot showing the average `diameter` of the tree trunks of each `genus_name` type.
+
+
+### Step by Step Instructions 
+1. Drag from the left-hand side under the heading "**Tables**" the column named `genus_type` to the "**Column**" toolbar. 
+2. We want the mean diameter for each genus so we can drag `diameter` to the "**Rows**" toolbar.
+3. This is where things differ. We right click the `diameter`  and transorm the "**Measure**" to "**Average**". 
+4. Instead of using a bar chart, Maybe using a dot plot would be more ideal. We can convert it by clicking the dropdown menu under the "**Marks**" card. Selecting "**Circle**" or "**Shape**" will instantly convert it.     
+
+_💡You can add your own shape icons by adding a folder to your "My Tableau Repository" folder under "Shapes"_ 
+
 
 
 ## Making a Time Series 
@@ -49,7 +59,7 @@ FILL IN HERE
 We are now interested in the number of trees planted and the date they were planted so our two columns of interest are `date_plated` and `tree_id`.
 
 ### Step by Step Instructions 
-1. Drag the `date_planted` variable to the "**Columns**" toolbar and again the `tree_id` to "**rows**". We are again interested in the amount of trees planted at selected dates so once again we want to transform this to a "**Count**" type "**Measure**".  
+1. Drag the `date_planted` variable to the "**Columns**" toolbar and again the `tree_id` to "**Rows**". We are again interested in the amount of trees planted at selected dates so once again we want to transform this to a "**Count**" type "**Measure**".  
 1. Since `date_planted' is a continuous variable, it's a good idea to right-click and transform this into a **Continuous** Dimension. 
 1. This automatically generates the number of trees planted at each year (but there are null values!)
 1. We can change this to:
@@ -90,23 +100,30 @@ Remember how difficult it can be to make maps using leaflet, python and R. Well 
 
 
 ### Filters 
-1. Decide what you want to filter on for each plot. 
+1. Decide which filters you want for each plot. 
 2. Go to the sheet my navigating on the bottom and selected the worksheet of interest.
 3. Under "**Tables**" Drag the column you wish to filter, in our case `Diameter`, `root_barrier` and `neighbourhood_name`  to the "**Filters**" card above "**Marks**". 
     - For `diameter`, since it is a continuous variable we want to select "**All Values**". We can decide on what kind of filtering we want but we are sticking to a "**range**". 
     - For `root_barrier` we want to select all values and then "**OK**".
     - The same applies for `neighbourhood_name`.
-4. Repeat this step for each of your worksheets. (OR wait and follows the nexr step) 
-
-ADD HOW TO ADD FILTERS 
+4. Repeat this step for each of your worksheets. (OR wait and follow the next section) 
+5. To obtain filters, on the side of the dashboard you will see a ▼ icon. Click this  and under "**Filter**" Select one of the column names. 
+6. We can edit the filter style by clicking the "**More Options**" ▼ icon and changing the style. 
+    - If it's filtering categorical data there are options like "**Single value (list)**", "**Single value (dropdown)**", "**Single value (slider)**", "**Multiple value (dropdown)**", etc. 
+7. You can "**Customize**" The filter styles to include certain features as well. 
  
-#### One filter for multiple graphs
+ 
+#### One Filter For Multiple Graphs
+- If you want to use a single filter for multiple plots, you can do so using the "**Apply to Worksheet**" option. 
+- This gives you the ability to select which sheet to also be filtered on this column or you can apply to "**All Using This Data Source**". 
 
-FILL IN HERE 
 
-#### Using a graph as a filter
+#### Using a Graph as a Filter
 
-FILL IN HERE 
+If  you want to use a highlight something on a plot and have it act as a filter on other sheets in the dashboard, this can be done with a single mouse click. 
+- Simply find the funnel icon on the side. When you hover over it, it should say "**Use Sheet as Filter**". 
+- Done! 
+
 
 ## Making Dashboard Tabs 
 
