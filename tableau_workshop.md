@@ -3,6 +3,28 @@
 - Make sure you have downloaded Tableau and obtained a Tableau Academic License.
 - Open Tableau Desktop
 
+Table of Contents
+=================
+
+   * [Tableau Workshop](#tableau-workshop)
+      * [Load in your Data](#load-in-your-data)
+         * [Step by Step Instructions](#step-by-step-instructions)
+      * [Making a Bar Chart](#making-a-bar-chart)
+         * [Step by Step Instructions](#step-by-step-instructions-1)
+      * [Aggregation plots](#aggregation-plots)
+         * [Step by Step Instructions](#step-by-step-instructions-2)
+      * [Making a Time Series](#making-a-time-series)
+         * [Step by Step Instructions](#step-by-step-instructions-3)
+      * [Maps](#maps)
+         * [Step by Step Instructions](#step-by-step-instructions-4)
+      * [Putting it all Together](#putting-it-all-together)
+         * [Making a Dashboard](#making-a-dashboard)
+         * [Filters](#filters)
+            * [One Filter For Multiple Graphs](#one-filter-for-multiple-graphs)
+            * [Using a Graph as a Filter](#using-a-graph-as-a-filter)
+      * [Making Dashboard Tabs](#making-dashboard-tabs)
+      * [Where to Deploy](#where-to-deploy)
+
 ## Load in your Data 
 We have provided you with [data](https://github.com/firasm/mds_tableau_workshop/blob/master/data/street_trees.csv)  obtained from [The City of Vancouver's Open Data Portal](https://opendata.vancouver.ca/explore/dataset/street-trees/information/?disjunctive.species_name&disjunctive.common_name&disjunctive.height_range_id)
 with minimal data wrangling done by the R package [DatateachR](https://github.com/UBC-MDS/datateachr).
